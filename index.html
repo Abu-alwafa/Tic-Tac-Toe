@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toy</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="score">
+        <div class="x-score">
+            <h3>X Score</h3>
+            <p id="xScore">0</p>
+        </div>
+        <div class="o-score">
+            <h3>O Score</h3>
+            <p id="oScore">0</p>
+        </div>
+    </div>
+    <div class="board" id="board">
+        <div class="cell" data-cell=""></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+
+    </div>
+
+    <div class="winning-massage" id="winningMassage">
+        <div data-winning-massage-text>X is Win!</div>
+        <button id="restartButton">Restart</button>
+    </div>
+
+</body>
+
+</html>
